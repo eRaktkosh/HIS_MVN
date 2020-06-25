@@ -1,0 +1,112 @@
+
+.date {
+    border: 1px solid #CCCCCC;
+    font-size: 11px;
+    padding: 3px;
+    text-align: center;
+    width: 98px;
+}
+#calroot {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-top: 0;
+    padding: 0;
+    width: 170px;
+    z-index: 10000;
+}
+#calhead {
+    background: none repeat scroll 0 0 #1277B5;
+    height: 17px;
+    padding: 1px;
+}
+#caltitle {
+    color: #FFFFFF;
+    float: left;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 0 1px 0 #DDDDDD;
+    width: 134px;
+}
+#calnext, #calprev {
+    background: url("/HIS/hisglobal/images/prev.gif") no-repeat scroll center center rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 14px;
+    width: 16px;
+}
+#calnext {
+    background-image: url("/HIS/hisglobal/images/next.gif");
+    float: right;
+}
+#calprev.caldisabled, #calnext.caldisabled {
+    visibility: hidden;
+}
+#caltitle select {
+    font-size: 11px;
+}
+#caldays {
+    border-bottom: 1px solid #DDDDDD;
+    height: 0;
+}
+#caldays span {
+    display: block;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 22px;
+}
+#calweeks {
+    background-color: #FFFFFF;
+}
+.calweek {
+    clear: left;
+    height: 17px;
+    padding-left: 4px;
+    padding-top: 0;
+}
+.calweek a {
+    background: none repeat scroll 0 0 #E0EBEB;
+    border: 1px solid #D3D3D3;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 13px;
+    line-height: 11px;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 18px;
+}
+.calweek a:hover, .calfocus {
+    background-color: #DDDDDD;
+}
+a.calsun {
+    color: #FF0000;
+}
+a.caloff {
+    background: none repeat scroll 0 0 #CDCDCD;
+    color: #000000;
+}
+a.caloff:hover {
+    background-color: #F5F5FA;
+}
+a.caldisabled {
+    background-color: #DBDBDB !important;
+    color: #B6B6B6 !important;
+    cursor: default;
+}
+#calcurrent {
+    background-color: #498CE2;
+    color: #FFFFFF;
+}
+#caltoday {
+    background-color: #333333;
+    color: #FFFFFF;
+}

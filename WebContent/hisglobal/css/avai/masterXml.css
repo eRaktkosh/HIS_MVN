@@ -1,0 +1,76 @@
+.MasterXMLHeader {
+	font-family: "MS Sans Serif";
+	font-size: 14px;
+	color: #653232;
+	text-align: left;
+	font-weight: normal;
+}
+
+td.MasterXMLDataLabel {
+	background-color: #FFEBD5;
+	height: 15px;
+	font-family: "MS Sans Serif";
+	font-size: 12px;
+	color: #653232;
+	text-align: left;
+	font-weight: bold;
+	background-image: none;
+	border-color: #ffffff;
+}
+
+td.MasterXMLDataValue {
+	background-Color: #F1ECE2;
+	height: 15px;
+	color: #990000;
+	text-align: left;
+	text-transform: capitalize;
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;	
+}
+
+td.MasterXMLButtonBar {	
+	height: 23px;
+	background-color: #ffffff;	
+	text-align: center;
+	border-top: outset 2px #653232;
+	border-bottom: inset 2px #653232"
+}
+
+.addheader {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana;
+	HEIGHT: 20px;
+	BACKGROUND-COLOR: #dee1f2
+}
+
+.addSubheader {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana;
+	HEIGHT: 20px;
+	BACKGROUND-COLOR: #b6c2d0
+}
+
+.addtoolbar {
+	HEIGHT: 23px;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: center
+}
+
+.pagetitle {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 13px;
+	COLOR: #000066;
+	FONT-STYLE: bold;
+	FONT-FAMILY: Verdana;
+	HEIGHT: 25px;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-ALIGN: left
+}

@@ -1,0 +1,119 @@
+
+.menuH {
+    background: url("bg.gif") repeat-x scroll 0 0 #EFEFF7;
+    border: 1px solid #BBBBBB;
+    float: none;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 28px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+.menuH li {
+    float: left;
+    height: 36px;
+    padding: 0;
+    position: relative;
+}
+.menuH li:hover, .menuH li.onhover {
+    background: url("bg.gif") repeat-x scroll 0 -48px #FFFFFF;
+}
+ul.menuH a {
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 36px;
+    outline: 0 none;
+    padding: 0 30px;
+    text-decoration: none;
+}
+.menuH a:hover {
+    color: #FF0000;
+}
+.menuH a.arrow {
+    background: url("arrow.gif") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.menuH ul a.arrow {
+    background: url("right.gif") no-repeat scroll 97% center rgba(0, 0, 0, 0);
+}
+.menuH .menuRight {
+    float: right;
+    margin-right: 0;
+}
+.menuH li.separator {
+    border-left: 1px solid #F7F7F7;
+    border-right: 1px solid #BBBBBB;
+    font-size: 0;
+    overflow: hidden;
+}
+ul.menuH ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: -moz-use-text-color #DDDDDD #DDDDDD;
+    border-image: none;
+    border-right: 1px solid #DDDDDD;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    left: -9999px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 1px 10px 0;
+    position: absolute;
+    text-align: left;
+    width: 270px;
+}
+.menuH li li {
+    float: none;
+    height: 26px;
+    white-space: nowrap;
+}
+.menuH li li:hover, .menuH li li.onhover {
+    background: none repeat scroll 0 0 #F7F7F7;
+}
+.menuH ul a {
+    color: #0066CC;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 26px;
+    padding: 0 20px;
+    text-align: left;
+}
+.menuH ul a:hover {
+    color: #FF0000;
+}
+.menuH li:hover ul, .menuH li.onhover ul {
+    left: -1px;
+    top: auto;
+}
+.menuH li:hover .dropToLeft, .menuH li.onhover .dropToLeft {
+    left: auto;
+    right: -1px;
+    top: auto;
+}
+.menuH ul ul {
+    border-top: 1px solid #DDDDDD;
+}
+.menuH li:hover ul ul, .menuH li:hover ul ul ul, .menuH li:hover ul ul ul ul, .menuH li.onhover ul ul, .menuH li.onhover ul ul ul, .menuH li.onhover ul ul ul ul {
+    left: -9999px;
+    top: 0;
+}
+.menuH li li:hover ul, .menuH li li li:hover ul, .menuH li li li li:hover ul, .menuH li li.onhover ul, .menuH li li li.onhover ul, .menuH li li li li.onhover ul {
+    left: 270px;
+}
+.decor1 {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 4px #EEEEEE;
+}
+.menuH ul {
+    background: -moz-linear-gradient(center top , #FFFFFF, #EEEEEE) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 6px 6px #CCCCCC;
+    opacity: 0.9;
+}

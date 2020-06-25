@@ -1,0 +1,181 @@
+
+#Pragyas_ColorPicker {
+	position: absolute;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #317082;
+	width: 250px;
+	width//: 258px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorPickerTabsBar {
+	padding-bottom: 1px;
+	border-bottom: 3px double #317082;
+	background-color: #E2EBED;
+	padding-left: 2px;
+	width: 248px;
+	height: 16px;
+	width//: 252px; /* IE 5.x */
+	height//: 20px; /* IE 5.x */
+}
+
+
+#Pragyas_ColorPicker .ColorPickerTab_inactive, .ColorPickerTab_active {
+	height: 17px;
+	padding-left: 4px;
+	cursor: pointer;
+	position: absolute;	
+}
+
+#Pragyas_ColorPicker .ColorPickerTab_inactive span {
+	background-image: url('/HIS/hisglobal/images/tab_left_inactive.gif');
+}
+
+#Pragyas_ColorPicker .ColorPickerTab_active span {
+	background-image: url('/HIS/hisglobal/images/tab_left_active.gif');
+}
+
+#Pragyas_ColorPicker .ColorPickerTab_inactive span, .ColorPickerTab_active span {
+	line-height: 16px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 11px;
+	padding-top: 1px;
+	vertical-align: middle;
+	background-position: top left;
+	background-repeat: no-repeat;
+	float: left;
+	padding-left: 6px;
+}
+
+#Pragyas_ColorPicker .ColorPickerTab_inactive img,.ColorPickerTab_active img {
+	float: left;
+	position//: absolute;
+}
+
+#Pragyas_ColorPicker .ColorPickerCloseButton {
+	text-align: center;
+	line-height: 10px;
+	border: 1px solid #317082;
+	position: absolute;
+	right: 1px;
+	font-size: 12px;
+	font-weight: bold;
+	top: 1px;
+	cursor: pointer;
+	width: 11px;
+	height: 11px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+	width//: 15px; /* IE 5.x */
+	height//: 15px; /* IE 5.x */
+	padding//: 1px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorSliderLabel {
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	width: 15px;
+	height: 20px;
+	width//: 15px; /* IE 5.x */
+	height//: 20px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorSlider {
+	float: left;
+	position: relative;
+	width: 175px;
+	height: 12px;
+	width//: 175px; /* IE 5.x */
+	height//: 12px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .DivActualSlider {
+	border-top: 1px solid #9d9c99;
+	border-left: 1px solid #9d9c99;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background-color: #f0ede0;
+	position: absolute;
+	bottom: 0px;
+	width: 170px;
+	height: 3px;
+	width//: 172px; /* IE 5.x */
+	height//: 5px; /* IE 5.x */	
+}
+
+#Pragyas_ColorPicker .ImgHandleImage {
+	position: absolute;
+	left: 0px;
+	z-index: 5;	
+}
+
+#Pragyas_ColorPicker .ColorCodeDiv {
+	float: left;
+	width: 50px;
+	height: 20px;
+	width//: 50px; /* IE 5.x */
+	height//: 20px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorSliderInput {
+	float: left;
+	font-size: 11px;
+	width: 45px;
+	height: 20px;
+	width//: 47px; /* IE 5.x */
+	height//: 18px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorSquare {
+	margin-left: 1px;
+	float: left;
+	border: 1px solid #000;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	margin-bottom: 1px;
+	margin-bottom//: 0px; /* IE 5.x */
+	width//: 12px; /* IE 5.x */
+	height//: 12px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorButton {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	float: left;
+	border: 1px solid #000;
+	cursor: pointer;
+	width: 50px;
+	height: 20px;	
+	width//: 52px; /* IE 5.x */
+	height//: 22px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .DivColorPreviewBar {
+	padding-bottom: 2px;
+	margin-top: 3px;
+	border-top: 3px double #317082;
+	padding-left: 2px;
+	clear: both;
+	height: 24px;
+	width: 245px;
+	height//: 28px; /* IE 5.x */
+	width//: 245px; /* IE 5.x */
+}
+
+#Pragyas_ColorPicker .ColorPreviewBar {
+	float: left;
+	border: 1px solid #000;
+	cursor: pointer;
+	margin-top: 2px;
+	margin-left: 20px;	
+	height: 20px;
+	width: 200px;
+	margin-left//: 10px; /* IE 5.x */
+	height//: 22px; /* IE 5.x */
+	width//: 202px; /* IE 5.x */
+}

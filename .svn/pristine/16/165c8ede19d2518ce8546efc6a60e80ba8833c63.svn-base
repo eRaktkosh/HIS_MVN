@@ -1,0 +1,68 @@
+body.bodycolor{
+	text=#000000; 
+	bgColor=#ffffff;
+	
+}
+
+TD.tdfonthead  {
+	background-color:#d1d1d1;
+	height:20px;
+	font-family:verdana;
+	font-size:12px;
+	color:#000000;
+	text-align:right;
+}
+td.tdfont  {
+	background-Color:#ebebeb;
+	height:20px;
+	font-size:12px;
+	font-family: verdana;
+	color:#000000;
+	text-align:left;
+}
+
+TD.caption {
+	
+	background-Color:#6a6a95 ;
+	height:7px;
+	font-family:verdana;
+	font-size:12px;
+	color:#ffffff; 
+	text-align=left;
+}
+
+TD.row {
+	
+	background-Color:#e0e0e0 ;
+	height:7px;
+	font-family: verdana;
+	font-size:2;
+	color:#9090b0; 
+	text-align=center;
+}
+
+A.linkday
+{
+	text-decoration:none;
+	color:#9090b0;
+}
+.labelButton
+{
+	BORDER-RIGHT: #ffffff 1px; BORDER-TOP: #ebebeb 1px; FONT-SIZE: 12px; 
+	BACKGROUND: #ebebeb; BORDER-LEFT: #ebebeb 1px;  COLOR:#000000; BORDER-BOTTOM: #ebebeb 1px; 
+	FONT-FAMILY: verdana; TEXT-DECORATION: none;BORDER-COLOR:#ffffff;
+	COLOR:#000099;
+	
+}
+.DISABLEBUTTON {
+	FONT-SIZE: 11px; BACKGROUND: wheat; WIDTH: 15px;  FONT-FAMILY: 'MS Sans Serif', Arial,
+	Helvetica, 'sans-serif'; HEIGHT: 22px; TEXT-ALIGN: center;
+}
+.ENABLEBUTTON{
+	BORDER-RIGHT: #ffffff 2px outset; PADDING-RIGHT: 10px; BORDER-TOP: #ffffff 2px outset;
+	PADDING-LEFT: 10px; FONT-SIZE: 11px; background:#99CCCC; PADDING-BOTTOM: 3px; 
+	BORDER-LEFT: #ffffff 2px outset; WIDTH: 5px; CURSOR: hand; COLOR: black; 
+	PADDING-TOP: 3px; BORDER-BOTTOM: #ffffff 2px outset; FONT-FAMILY: 
+	'MS Sans Serif', Arial, Helvetica, 'sans-serif';  TEXT-DECORATION: none; 
+	outline: none; whitespace: nowrap
+}

@@ -1,0 +1,36 @@
+.label{
+font-size: 14px;
+}
+.control{
+font-size: 14px;
+}
+
+select{
+font-size: 14px;	
+}
+input[type="text"] {
+	font-size: 14px;
+}
+.div-table {
+ font-size: 14px;
+}
+.title {
+	font-size: 14px;
+}
+.subtitle{
+	 font-size: 14px;
+
+	}
+.div-table-listing .listHeader{
+font-size: 14px;
+	}
+.listData{
+font-size: 14px;
+	}
+	textarea{
+	font-size: 14px;
+	}
+	a.button{
+font-size: 17px;
+	}
+	

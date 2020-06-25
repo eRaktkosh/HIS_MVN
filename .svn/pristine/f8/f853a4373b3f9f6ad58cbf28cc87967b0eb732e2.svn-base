@@ -1,0 +1,12 @@
+/* CSS Document */
+.menufont
+{
+	font-family: "Trebuchet MS";
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}

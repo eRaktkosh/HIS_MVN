@@ -1,0 +1,103 @@
+a.button{
+     background:#40A161;
+     display:inline-block;
+     color:#fff;
+     font-weight:bold;
+     height:25px;
+     /*line-height:25px;*/
+     margin-right:5px;
+	 padding-right:5px;
+     text-decoration:none;
+     width:auto;
+     border-radius:3px;
+     text-align: left;
+}
+
+a.buttonDisabled{
+     background:#787878;
+     display:inline-block;
+     color:#fff;
+     font-weight:bold;
+     height:25px;
+     /*line-height:25px;*/
+     margin-right:5px;
+	 padding-right:5px;
+     text-decoration:none;
+     width:auto;
+     border-radius:3px;
+     text-align: left;
+}
+
+a.smallButton{
+     background:#40A161;
+     display:inline-block;
+     color:#fff;
+     font-weight:bold;
+     height:25px;
+     line-height:25px;
+     margin-right:5px;
+     text-decoration:none;
+     width:60px;
+     border-radius:3px;
+     
+}
+
+
+a:hover.button{
+     color:#000;
+}
+.save{
+background:url(../images/save.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.clear{
+background:url(../images/clear.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.cancel{
+background:url(../images/cancel.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.add{
+background:url(../images/add.gif) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.modify{
+background:url(../images/edit.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.delete{
+background:url(../images/trash.gif) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.view{
+background:url(../images/view.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.reports{
+background:url(../images/report.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.print{
+background:url(../images/print.gif) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.generate{
+background:url(../images/generate.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
+.back{
+background:url(../images/return.png) no-repeat 10px 5px;
+text-indent:30px;
+display:block;
+}
