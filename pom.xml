@@ -43,8 +43,12 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
+					<!-- <verbose>true</verbose>
+		            <fork>true</fork> -->
 					<source>1.7</source>
 					<target>1.7</target>
+					<!-- <executable>/opt/jdk7/bin/javac</executable>
+					<compilerVersion>1.7</compilerVersion> -->
 				</configuration>
 			</plugin>
 
@@ -95,8 +99,8 @@
 			<!-- JBoss AS plugin to deploy the war. -->
 			
 			
-			<plugin>
-				<!-- <groupId>org.jboss.as.plugins</groupId>
+			<!--<plugin>
+				 <groupId>org.jboss.as.plugins</groupId>
 				<artifactId>jboss-as-maven-plugin</artifactId>
 				<version>7.5.Final</version>
 				<configuration>
@@ -109,7 +113,7 @@
 					<fileNames>
 						<fileName>target/${plugin.war.warName}.war</fileName>
 					</fileNames>
-				</configuration> -->
+				</configuration>
 				
 				<groupId>org.codehaus.mojo</groupId>
 	            <artifactId>jboss-maven-plugin</artifactId>
@@ -120,7 +124,7 @@
 	                <fileName>target/${plugin.war.warName}.war</fileName>
 	            </configuration>
 			</plugin> 
-			
+			 -->
 			
 			
 
